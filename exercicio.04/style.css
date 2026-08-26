@@ -1,42 +1,30 @@
 body {
-    background-color: #fff8f0;
-    font-family: 'Segoe UI', Verdana, sans-serif;
-    color: #4a2c2a;
+    margin: 0;
+    min-height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
+    background-color: #0f172a;
 }
 
-.receita {
-    max-width: 500px;
-    padding: 2.5rem 1.5rem;
+.botao {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 999px;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-h1 {
-    color: #7b3f00;
-    margin-bottom: 0.3rem;
+.botao:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.55);
 }
 
-.descricao {
-    color: #8a6d5e;
-    font-style: italic;
-    margin-top: 0;
-}
-
-h2 {
-    color: #a05a2c;
-    border-bottom: 2px solid #eecfa1;
-    padding-bottom: 0.3rem;
-}
-
-ul, ol {
-    line-height: 1.6;
-}
-
-.dica {
-    margin-top: 1.5rem;
-    background-color: #fdebd3;
-    border-left: 4px solid #d9822b;
-    padding: 0.8rem 1rem;
-    border-radius: 4px;
-    font-size: 0.9rem;
+.botao:active {
+    transform: translateY(0);
 }
