@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Preços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pacotes de desenvolvimento</h1>
+
+    <table>
+        <tr>
+            <th>Pacote</th>
+            <th>Inclui</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Landing page</td>
+            <td>Página única, responsiva, com formulário de contato</td>
+            <td>R$ 450,00</td>
+        </tr>
+        <tr>
+            <td>Site institucional</td>
+            <td>Até 5 páginas, responsivo, com painel simples</td>
+            <td>R$ 1.200,00</td>
+        </tr>
+        <tr>
+            <td>Aplicativo sob medida</td>
+            <td>App mobile ou web completo, com back-end e banco de dados</td>
+            <td>Sob consulta</td>
+        </tr>
+    </table>
+</body>
+</html>
